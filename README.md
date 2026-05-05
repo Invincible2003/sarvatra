@@ -67,6 +67,8 @@ sarvatra/
 ├── public/
 ├── package.json
 └── vite.config.js
+
+
 📌 Future Improvements
 Add ML-based prediction models
 More economic indicators (unemployment, trade)
