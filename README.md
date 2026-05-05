@@ -1,16 +1,79 @@
-# React + Vite
+# 🌍 Sarvatra – Global Economic Insights Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack data analytics dashboard that visualizes global economic trends, provides AI-based insights, and integrates Power BI for advanced reporting.
 
-Currently, two official plugins are available:
+🔗 Live Demo: https://sarvatra-nine.vercel.app  
+📂 GitHub Repo: https://github.com/Invincible2003/sarvatra
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 1. Dashboard Analytics
+- GDP Growth visualization (real-time from World Bank API)
+- Inflation, Status, Year KPIs
+- Interactive country selection
+- Dynamic charts using Recharts
 
-## Expanding the ESLint configuration
+### 🤖 2. AI Insights (Free Logic-Based)
+- Trend detection (growth/decline)
+- Crisis identification (e.g., COVID impact)
+- Economic recovery insights
+- Inflation analysis
+- Country-specific summary
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌐 3. Event Analysis
+- Global event impact (COVID-19, wars, etc.)
+- Economic trend correlation with events
+
+### 📈 4. Correlation Analysis
+- GDP vs Inflation comparison
+- Visual relationship analysis between economic indicators
+
+### 📊 5. Power BI Integration
+- Embedded Power BI dashboard (secure embed)
+- Interactive BI-level analytics
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- Recharts
+
+### Backend / Data
+- World Bank API
+- Custom AI logic (no paid API)
+
+### BI Integration
+- Microsoft Power BI (Secure Embed)
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Project Structure
+sarvatra/
+├── src/
+│ ├── api/ # Data fetching logic
+│ ├── components/ # Reusable components
+│ ├── layout/ # Sidebar, Navbar, Layout
+│ ├── pages/ # Dashboard, Events, Correlation, PowerBI
+│ ├── assets/ # Logo, images
+│ └── main.jsx
+├── public/
+├── package.json
+└── vite.config.js
+📌 Future Improvements
+Add ML-based prediction models
+More economic indicators (unemployment, trade)
+Export reports (PDF/Excel)
+User authentication
+
+👨‍💻 Author
+
+Aryan Pandey
+B.Tech CSE (Final Year)
